@@ -66,8 +66,8 @@ for filepath in filepaths:
 
     # 设置图标
     pdf.set_font(family="Times", size=15, style="B")
-    pdf.cell(w=30, h=8, txt=f"Made by ZYR")
-    pdf.image("images.jpg", w=5, h=8)
+    pdf.cell(w=35, h=8, txt=f"Made by ZYR")
+    pdf.image("images.jpg", w=8, h=8)
 
     # 生成pdf
     pdf.output(f"pdfs/{filename}.pdf")
